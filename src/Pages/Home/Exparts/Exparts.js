@@ -7,6 +7,7 @@ import expart5 from '../../../img/experts/expert-5.jpg';
 import expart6 from '../../../img/experts/expert-6.png';
 import Expart from '../../../Pages/Home/Expart/Expart';
 
+
 const exparts = [
     {id: 1, name: 'Will Smith', img: expart1},
     {id: 2, name: 'Chris Rock', img: expart2},

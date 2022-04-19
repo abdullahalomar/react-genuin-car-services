@@ -6,6 +6,7 @@ import  auth  from '../../../firebase.init';
 import SocialLogin from '../SocialLogin/SocialLogin';
 import { async } from '@firebase/util';
 import Loading from '../../Shared/Loading/Loading';
+import PageTitle from '../../Shared/PageTitle/PageTitle';
 
 
 
@@ -47,6 +48,7 @@ const Register = () => {
     }
     return (
         <div className='register-form'>
+            <PageTitle title="Register"></PageTitle>
             <h2 style={{textAlign: 'center'}}>Please register</h2>
             <form onSubmit={handleRegister}>
                 <input type="text" name='text' placeholder='Name' />
